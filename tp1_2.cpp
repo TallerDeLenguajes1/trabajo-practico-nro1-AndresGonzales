@@ -16,7 +16,7 @@ void cuadra2(int num1);
 void puntero(int *p_num1);
 void invertir(int *a, int *b);
 void ordenar(int *a, int *b);
-void pares();
+//void pares();
 
 int main(){
 
@@ -93,7 +93,7 @@ void ordenar(int *a, int *b){
 
 	printf("los valores ordenados de menor a mayor son: %d y %d",*a,*b);
 }
-void pares(){
+/*void pares(){
 
 	int i,a,b;
 	printf("ingrese 5 veces 2 pares de numeros: \n \n");
@@ -111,6 +111,6 @@ void pares(){
 		}
 		
 	}
-}
+} esta funcion no anda, es por algo de la notacion pero nose que sea*/
 
 
